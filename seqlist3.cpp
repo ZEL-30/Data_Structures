@@ -1,3 +1,8 @@
+/*
+ * 程序名：seqlist3.cpp，此程序演示顺序表的动态实现，数据元素是整数。
+ * 作者：ZEL 日期：20220502
+*/
+
 #include "include.h"
 
 #define INITSIZE 10
