@@ -77,9 +77,19 @@ void test02(){
     ee = 1; Push(ss,&ee);
     ee = 2; Push(ss,&ee);
     ee = 3; Push(ss,&ee);
+    ee = 4; Push(ss,&ee);
+    ee = 5; Push(ss,&ee);
+    PrintStack(ss);
+    cout << "栈的长度为：" << Length(ss) << endl;
+    Pop(ss,&ee);
+    cout << ee << " 出栈" << endl;
+    Pop(ss,&ee);
+    cout << ee << " 出栈" << endl;
+    Pop(ss,&ee);
+    cout << ee << " 出栈" << endl;
     PrintStack(ss);
     GetTop(ss,&aa);
-    cout << "aa : " << aa << endl;
+    cout << "栈顶元素: " << aa << endl;
     cout << "栈的长度为：" << Length(ss) << endl;
 
 
@@ -136,6 +146,7 @@ int Push(PSeqStack SS, ElemType *ee){
 // 元素出栈，返回值：0-失败；1-成功。
 int Pop(PSeqStack SS, ElemType *ee){
     if(SS == NULL || ee == NULL) return 0;
+    GetTop(SS,ee);
     SS->top--;
     return 1;
 }
@@ -144,9 +155,10 @@ int Pop(PSeqStack SS, ElemType *ee){
 void PrintStack(PSeqStack SS){
     if(SS == NULL) return;
     if(SS->top == -1) return;
-    for(int i = 0;i <= SS->top;i++){
-        cout << SS->data[i] << endl;
+    for(int i = 0;i < Length(SS);i++){
+        cout << SS->data[i] << " ";
     }
+    cout << endl;
 }
 
 // 获取栈顶元素，返回值：0-失败；1-成功。
@@ -159,5 +171,27 @@ int GetTop(PSeqStack SS, ElemType *ee){
 
 // 求顺序栈的长度，返回值：栈SS中元素的个数。
 int Length(PSeqStack SS){
-    return SS->top;
+    if(SS == NULL) return 0;
+    return SS->top + 1;
+}
+
+
+// 判断顺序栈是否为空，返回值：1-空，0-非空或失败。
+int IsEmpty(PSeqStack SS){
+    if(SS == NULL) return 0;
+    if(SS->top == -1) return 1;
+    return 0;
+}                    
+
+// 判断顺序栈是否已满，返回值：1-已满，0-未满或失败。
+int IsFull(PSeqStack SS){
+    if(SS == NULL) return 0;
+    if(SS->top > MAX) return 1;
+    return 0;
+}
+
+// 销毁顺序栈SS。
+void DestroyStack(PSeqStack SS){
+    if(SS == NULL) return;
+    Clear(SS);
 }
