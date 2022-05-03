@@ -80,7 +80,7 @@ void test01(){
     Pop(&ss,&ee);
     cout << ee << " 出栈" << endl;
     PrintStack(&ss);
-    //GetTop(&ss,&aa);
+    GetTop(&ss,&aa);
     cout << "栈顶元素: " << aa << endl;
     cout << "栈的长度为：" << Length(&ss) << endl;
 
@@ -155,4 +155,18 @@ void PrintStack(PSeqStack SS){
         cout << *(SS->data + i) << " ";
     }
     cout << endl;
+}
+
+// 获取栈顶元素，返回值：0-失败；1-成功。
+// 只查看栈顶元素的值，元素不出栈。
+int GetTop(PSeqStack SS, ElemType *ee){
+    if(SS == NULL || ee == NULL) return 0;
+    memcpy(ee,SS->data + SS->top,sizeof(ElemType));
+    return 1;
+}
+
+// 销毁顺序栈SS。
+void DestroyStack(PSeqStack SS){
+    if(SS == NULL) return;
+    Clear(SS);
 }
