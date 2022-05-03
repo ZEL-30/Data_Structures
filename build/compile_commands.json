@@ -1,6 +1,11 @@
 [
 {
   "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include -g -Wall -O2 -o CMakeFiles/seqstack2.dir/seqstack2.cpp.o -c /root/C++项目/Data_Structures/seqstack2.cpp",
+  "file": "/root/C++项目/Data_Structures/seqstack2.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include -g -Wall -O2 -o CMakeFiles/mystring.dir/mystring.cpp.o -c /root/C++项目/Data_Structures/mystring.cpp",
   "file": "/root/C++项目/Data_Structures/mystring.cpp"
 },

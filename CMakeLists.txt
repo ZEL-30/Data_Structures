@@ -23,3 +23,5 @@ add_executable(memcpy memcpy.cpp)
 add_executable(mystring mystring.cpp src/MyString.cpp)
 
 add_executable(seqstack1 seqstack1.cpp)
+
+add_executable(seqstack2 seqstack2.cpp)

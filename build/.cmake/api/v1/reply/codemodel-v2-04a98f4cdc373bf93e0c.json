@@ -22,7 +22,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -45,7 +46,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -105,6 +107,13 @@
 					"id" : "seqstack1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-seqstack1-Debug-9e5b3221b6549ea62346.json",
 					"name" : "seqstack1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seqstack2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seqstack2-Debug-fd4cea03e881616048f7.json",
+					"name" : "seqstack2",
 					"projectIndex" : 0
 				},
 				{

@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /root/C++项目/Data_Structures/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/seqstack2.dir/all
 all: CMakeFiles/mystring.dir/all
 all: CMakeFiles/memcpy.dir/all
 all: CMakeFiles/sizeof.dir/all
@@ -79,6 +80,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/seqstack2.dir/clean
 clean: CMakeFiles/mystring.dir/clean
 clean: CMakeFiles/memcpy.dir/clean
 clean: CMakeFiles/sizeof.dir/clean
@@ -89,6 +91,32 @@ clean: CMakeFiles/seqstack1.dir/clean
 clean: CMakeFiles/linklist1.dir/clean
 clean: CMakeFiles/seqlist1.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/seqstack2.dir
+
+# All Build rule for target.
+CMakeFiles/seqstack2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=18,19 "Built target seqstack2"
+.PHONY : CMakeFiles/seqstack2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/seqstack2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/seqstack2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
+.PHONY : CMakeFiles/seqstack2.dir/rule
+
+# Convenience name for target.
+seqstack2: CMakeFiles/seqstack2.dir/rule
+.PHONY : seqstack2
+
+# clean rule for target.
+CMakeFiles/seqstack2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/clean
+.PHONY : CMakeFiles/seqstack2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/mystring.dir
@@ -149,7 +177,7 @@ CMakeFiles/memcpy.dir/clean:
 CMakeFiles/sizeof.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=18,19 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=20,21 "Built target sizeof"
 .PHONY : CMakeFiles/sizeof.dir/all
 
 # Build rule for subdir invocation for target.

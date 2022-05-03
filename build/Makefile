@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /root/C++项目/Data_Structures/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named seqstack2
+
+# Build rule for target.
+seqstack2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack2
+.PHONY : seqstack2
+
+# fast build rule for target.
+seqstack2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/build
+.PHONY : seqstack2/fast
 
 #=============================================================================
 # Target rules for targets named mystring
@@ -425,6 +438,30 @@ seqstack1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/seqstack1.cpp.s
 .PHONY : seqstack1.cpp.s
 
+seqstack2.o: seqstack2.cpp.o
+.PHONY : seqstack2.o
+
+# target to build an object file
+seqstack2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/seqstack2.cpp.o
+.PHONY : seqstack2.cpp.o
+
+seqstack2.i: seqstack2.cpp.i
+.PHONY : seqstack2.i
+
+# target to preprocess a source file
+seqstack2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/seqstack2.cpp.i
+.PHONY : seqstack2.cpp.i
+
+seqstack2.s: seqstack2.cpp.s
+.PHONY : seqstack2.s
+
+# target to generate assembly for a file
+seqstack2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/seqstack2.cpp.s
+.PHONY : seqstack2.cpp.s
+
 sizeof.o: sizeof.cpp.o
 .PHONY : sizeof.o
 
@@ -489,6 +526,7 @@ help:
 	@echo "... seqlist2"
 	@echo "... seqlist3"
 	@echo "... seqstack1"
+	@echo "... seqstack2"
 	@echo "... sizeof"
 	@echo "... linklist1.o"
 	@echo "... linklist1.i"
@@ -514,6 +552,9 @@ help:
 	@echo "... seqstack1.o"
 	@echo "... seqstack1.i"
 	@echo "... seqstack1.s"
+	@echo "... seqstack2.o"
+	@echo "... seqstack2.i"
+	@echo "... seqstack2.s"
 	@echo "... sizeof.o"
 	@echo "... sizeof.i"
 	@echo "... sizeof.s"
