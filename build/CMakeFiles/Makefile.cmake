@@ -49,6 +49,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/linklist2.dir/DependInfo.cmake"
   "CMakeFiles/seqlist3.dir/DependInfo.cmake"
   "CMakeFiles/seqlist2.dir/DependInfo.cmake"
+  "CMakeFiles/seqstack1.dir/DependInfo.cmake"
   "CMakeFiles/linklist1.dir/DependInfo.cmake"
   "CMakeFiles/seqlist1.dir/DependInfo.cmake"
   )

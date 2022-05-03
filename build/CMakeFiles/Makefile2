@@ -69,6 +69,7 @@ all: CMakeFiles/sizeof.dir/all
 all: CMakeFiles/linklist2.dir/all
 all: CMakeFiles/seqlist3.dir/all
 all: CMakeFiles/seqlist2.dir/all
+all: CMakeFiles/seqstack1.dir/all
 all: CMakeFiles/linklist1.dir/all
 all: CMakeFiles/seqlist1.dir/all
 .PHONY : all
@@ -84,6 +85,7 @@ clean: CMakeFiles/sizeof.dir/clean
 clean: CMakeFiles/linklist2.dir/clean
 clean: CMakeFiles/seqlist3.dir/clean
 clean: CMakeFiles/seqlist2.dir/clean
+clean: CMakeFiles/seqstack1.dir/clean
 clean: CMakeFiles/linklist1.dir/clean
 clean: CMakeFiles/seqlist1.dir/clean
 .PHONY : clean
@@ -147,7 +149,7 @@ CMakeFiles/memcpy.dir/clean:
 CMakeFiles/sizeof.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=16,17 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=18,19 "Built target sizeof"
 .PHONY : CMakeFiles/sizeof.dir/all
 
 # Build rule for subdir invocation for target.
@@ -243,6 +245,32 @@ seqlist2: CMakeFiles/seqlist2.dir/rule
 CMakeFiles/seqlist2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist2.dir/build.make CMakeFiles/seqlist2.dir/clean
 .PHONY : CMakeFiles/seqlist2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/seqstack1.dir
+
+# All Build rule for target.
+CMakeFiles/seqstack1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=16,17 "Built target seqstack1"
+.PHONY : CMakeFiles/seqstack1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/seqstack1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/seqstack1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
+.PHONY : CMakeFiles/seqstack1.dir/rule
+
+# Convenience name for target.
+seqstack1: CMakeFiles/seqstack1.dir/rule
+.PHONY : seqstack1
+
+# clean rule for target.
+CMakeFiles/seqstack1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/clean
+.PHONY : CMakeFiles/seqstack1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/linklist1.dir

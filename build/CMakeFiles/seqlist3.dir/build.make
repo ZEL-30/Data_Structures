@@ -73,15 +73,15 @@ CMakeFiles/seqlist3.dir/seqlist3.cpp.o: CMakeFiles/seqlist3.dir/flags.make
 CMakeFiles/seqlist3.dir/seqlist3.cpp.o: ../seqlist3.cpp
 CMakeFiles/seqlist3.dir/seqlist3.cpp.o: CMakeFiles/seqlist3.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/seqlist3.dir/seqlist3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seqlist3.dir/seqlist3.cpp.o -MF CMakeFiles/seqlist3.dir/seqlist3.cpp.o.d -o CMakeFiles/seqlist3.dir/seqlist3.cpp.o -c /root/C++项目/Data_Structures/seqlist3.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seqlist3.dir/seqlist3.cpp.o -MF CMakeFiles/seqlist3.dir/seqlist3.cpp.o.d -o CMakeFiles/seqlist3.dir/seqlist3.cpp.o -c /root/C++项目/Data_Structures/seqlist3.cpp
 
 CMakeFiles/seqlist3.dir/seqlist3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/seqlist3.dir/seqlist3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/seqlist3.cpp > CMakeFiles/seqlist3.dir/seqlist3.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/seqlist3.cpp > CMakeFiles/seqlist3.dir/seqlist3.cpp.i
 
 CMakeFiles/seqlist3.dir/seqlist3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/seqlist3.dir/seqlist3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/seqlist3.cpp -o CMakeFiles/seqlist3.dir/seqlist3.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/seqlist3.cpp -o CMakeFiles/seqlist3.dir/seqlist3.cpp.s
 
 # Object files for target seqlist3
 seqlist3_OBJECTS = \

@@ -73,15 +73,15 @@ CMakeFiles/sizeof.dir/sizeof.cpp.o: CMakeFiles/sizeof.dir/flags.make
 CMakeFiles/sizeof.dir/sizeof.cpp.o: ../sizeof.cpp
 CMakeFiles/sizeof.dir/sizeof.cpp.o: CMakeFiles/sizeof.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sizeof.dir/sizeof.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sizeof.dir/sizeof.cpp.o -MF CMakeFiles/sizeof.dir/sizeof.cpp.o.d -o CMakeFiles/sizeof.dir/sizeof.cpp.o -c /root/C++项目/Data_Structures/sizeof.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sizeof.dir/sizeof.cpp.o -MF CMakeFiles/sizeof.dir/sizeof.cpp.o.d -o CMakeFiles/sizeof.dir/sizeof.cpp.o -c /root/C++项目/Data_Structures/sizeof.cpp
 
 CMakeFiles/sizeof.dir/sizeof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sizeof.dir/sizeof.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/sizeof.cpp > CMakeFiles/sizeof.dir/sizeof.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/sizeof.cpp > CMakeFiles/sizeof.dir/sizeof.cpp.i
 
 CMakeFiles/sizeof.dir/sizeof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sizeof.dir/sizeof.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/sizeof.cpp -o CMakeFiles/sizeof.dir/sizeof.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/sizeof.cpp -o CMakeFiles/sizeof.dir/sizeof.cpp.s
 
 # Object files for target sizeof
 sizeof_OBJECTS = \

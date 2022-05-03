@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Data_Structures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "linklist1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linklist1-Debug-1245fd580c574b184da8.json",
+					"name" : "linklist1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linklist2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linklist2-Debug-8ee9eac7fbe4e41d0814.json",
+					"name" : "linklist2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "memcpy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-memcpy-Debug-6a521abd48493cd421ad.json",
+					"name" : "memcpy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mystring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mystring-Debug-8584f391712df6e0509f.json",
+					"name" : "mystring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seqlist1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seqlist1-Debug-b8122fceb71ceb43f402.json",
+					"name" : "seqlist1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seqlist2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seqlist2-Debug-ece52455d9784cc81ce2.json",
+					"name" : "seqlist2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seqlist3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seqlist3-Debug-1989359b3ac785245152.json",
+					"name" : "seqlist3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seqstack1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seqstack1-Debug-9e5b3221b6549ea62346.json",
+					"name" : "seqstack1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sizeof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sizeof-Debug-577b87fa81eb74ff22ca.json",
+					"name" : "sizeof",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/C++项目/Data_Structures/build",
+		"source" : "/root/C++项目/Data_Structures"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

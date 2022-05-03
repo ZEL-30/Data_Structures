@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/memcpy.dir/memcpy.cpp.o -o memcpy 
+/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/memcpy.dir/memcpy.cpp.o -o memcpy 

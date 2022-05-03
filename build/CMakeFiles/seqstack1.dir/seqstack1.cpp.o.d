@@ -1,5 +1,6 @@
-CMakeFiles/seqlist2.dir/seqlist2.cpp.o: \
- /root/C++项目/Data_Structures/seqlist2.cpp /usr/include/stdc-predef.h \
+CMakeFiles/seqstack1.dir/seqstack1.cpp.o: \
+ /root/C++项目/Data_Structures/seqstack1.cpp /usr/include/stdc-predef.h \
+ /root/C++项目/Data_Structures/include/include.h \
  /usr/include/c++/11/iostream \
  /usr/include/c++/11/aarch64-redhat-linux/bits/c++config.h \
  /usr/include/c++/11/aarch64-redhat-linux/bits/os_defines.h \
@@ -123,8 +124,4 @@ CMakeFiles/seqlist2.dir/seqlist2.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc
+ /usr/include/strings.h

@@ -73,15 +73,15 @@ CMakeFiles/linklist2.dir/linklist2.cpp.o: CMakeFiles/linklist2.dir/flags.make
 CMakeFiles/linklist2.dir/linklist2.cpp.o: ../linklist2.cpp
 CMakeFiles/linklist2.dir/linklist2.cpp.o: CMakeFiles/linklist2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linklist2.dir/linklist2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/linklist2.dir/linklist2.cpp.o -MF CMakeFiles/linklist2.dir/linklist2.cpp.o.d -o CMakeFiles/linklist2.dir/linklist2.cpp.o -c /root/C++项目/Data_Structures/linklist2.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/linklist2.dir/linklist2.cpp.o -MF CMakeFiles/linklist2.dir/linklist2.cpp.o.d -o CMakeFiles/linklist2.dir/linklist2.cpp.o -c /root/C++项目/Data_Structures/linklist2.cpp
 
 CMakeFiles/linklist2.dir/linklist2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linklist2.dir/linklist2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/linklist2.cpp > CMakeFiles/linklist2.dir/linklist2.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/linklist2.cpp > CMakeFiles/linklist2.dir/linklist2.cpp.i
 
 CMakeFiles/linklist2.dir/linklist2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linklist2.dir/linklist2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/linklist2.cpp -o CMakeFiles/linklist2.dir/linklist2.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/linklist2.cpp -o CMakeFiles/linklist2.dir/linklist2.cpp.s
 
 # Object files for target linklist2
 linklist2_OBJECTS = \

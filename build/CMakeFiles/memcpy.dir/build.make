@@ -73,15 +73,15 @@ CMakeFiles/memcpy.dir/memcpy.cpp.o: CMakeFiles/memcpy.dir/flags.make
 CMakeFiles/memcpy.dir/memcpy.cpp.o: ../memcpy.cpp
 CMakeFiles/memcpy.dir/memcpy.cpp.o: CMakeFiles/memcpy.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memcpy.dir/memcpy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memcpy.dir/memcpy.cpp.o -MF CMakeFiles/memcpy.dir/memcpy.cpp.o.d -o CMakeFiles/memcpy.dir/memcpy.cpp.o -c /root/C++项目/Data_Structures/memcpy.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memcpy.dir/memcpy.cpp.o -MF CMakeFiles/memcpy.dir/memcpy.cpp.o.d -o CMakeFiles/memcpy.dir/memcpy.cpp.o -c /root/C++项目/Data_Structures/memcpy.cpp
 
 CMakeFiles/memcpy.dir/memcpy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memcpy.dir/memcpy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/memcpy.cpp > CMakeFiles/memcpy.dir/memcpy.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/memcpy.cpp > CMakeFiles/memcpy.dir/memcpy.cpp.i
 
 CMakeFiles/memcpy.dir/memcpy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memcpy.dir/memcpy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/memcpy.cpp -o CMakeFiles/memcpy.dir/memcpy.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/memcpy.cpp -o CMakeFiles/memcpy.dir/memcpy.cpp.s
 
 # Object files for target memcpy
 memcpy_OBJECTS = \

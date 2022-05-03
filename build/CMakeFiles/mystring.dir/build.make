@@ -73,29 +73,29 @@ CMakeFiles/mystring.dir/mystring.cpp.o: CMakeFiles/mystring.dir/flags.make
 CMakeFiles/mystring.dir/mystring.cpp.o: ../mystring.cpp
 CMakeFiles/mystring.dir/mystring.cpp.o: CMakeFiles/mystring.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mystring.dir/mystring.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/mystring.cpp.o -MF CMakeFiles/mystring.dir/mystring.cpp.o.d -o CMakeFiles/mystring.dir/mystring.cpp.o -c /root/C++项目/Data_Structures/mystring.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/mystring.cpp.o -MF CMakeFiles/mystring.dir/mystring.cpp.o.d -o CMakeFiles/mystring.dir/mystring.cpp.o -c /root/C++项目/Data_Structures/mystring.cpp
 
 CMakeFiles/mystring.dir/mystring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mystring.dir/mystring.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/mystring.cpp > CMakeFiles/mystring.dir/mystring.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/mystring.cpp > CMakeFiles/mystring.dir/mystring.cpp.i
 
 CMakeFiles/mystring.dir/mystring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mystring.dir/mystring.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/mystring.cpp -o CMakeFiles/mystring.dir/mystring.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/mystring.cpp -o CMakeFiles/mystring.dir/mystring.cpp.s
 
 CMakeFiles/mystring.dir/src/MyString.cpp.o: CMakeFiles/mystring.dir/flags.make
 CMakeFiles/mystring.dir/src/MyString.cpp.o: ../src/MyString.cpp
 CMakeFiles/mystring.dir/src/MyString.cpp.o: CMakeFiles/mystring.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mystring.dir/src/MyString.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/src/MyString.cpp.o -MF CMakeFiles/mystring.dir/src/MyString.cpp.o.d -o CMakeFiles/mystring.dir/src/MyString.cpp.o -c /root/C++项目/Data_Structures/src/MyString.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/src/MyString.cpp.o -MF CMakeFiles/mystring.dir/src/MyString.cpp.o.d -o CMakeFiles/mystring.dir/src/MyString.cpp.o -c /root/C++项目/Data_Structures/src/MyString.cpp
 
 CMakeFiles/mystring.dir/src/MyString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mystring.dir/src/MyString.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/src/MyString.cpp > CMakeFiles/mystring.dir/src/MyString.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/src/MyString.cpp > CMakeFiles/mystring.dir/src/MyString.cpp.i
 
 CMakeFiles/mystring.dir/src/MyString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mystring.dir/src/MyString.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/src/MyString.cpp -o CMakeFiles/mystring.dir/src/MyString.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/src/MyString.cpp -o CMakeFiles/mystring.dir/src/MyString.cpp.s
 
 # Object files for target mystring
 mystring_OBJECTS = \

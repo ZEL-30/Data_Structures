@@ -6,5 +6,6 @@
 /root/C++项目/Data_Structures/build/CMakeFiles/linklist2.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqlist3.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqlist2.dir
+/root/C++项目/Data_Structures/build/CMakeFiles/seqstack1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/linklist1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqlist1.dir

@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/seqlist1.dir/seqlist1.cpp.o -o seqlist1 
+/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/seqlist1.dir/seqlist1.cpp.o -o seqlist1 

@@ -73,15 +73,15 @@ CMakeFiles/seqlist1.dir/seqlist1.cpp.o: CMakeFiles/seqlist1.dir/flags.make
 CMakeFiles/seqlist1.dir/seqlist1.cpp.o: ../seqlist1.cpp
 CMakeFiles/seqlist1.dir/seqlist1.cpp.o: CMakeFiles/seqlist1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/seqlist1.dir/seqlist1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seqlist1.dir/seqlist1.cpp.o -MF CMakeFiles/seqlist1.dir/seqlist1.cpp.o.d -o CMakeFiles/seqlist1.dir/seqlist1.cpp.o -c /root/C++项目/Data_Structures/seqlist1.cpp
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seqlist1.dir/seqlist1.cpp.o -MF CMakeFiles/seqlist1.dir/seqlist1.cpp.o.d -o CMakeFiles/seqlist1.dir/seqlist1.cpp.o -c /root/C++项目/Data_Structures/seqlist1.cpp
 
 CMakeFiles/seqlist1.dir/seqlist1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/seqlist1.dir/seqlist1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/seqlist1.cpp > CMakeFiles/seqlist1.dir/seqlist1.cpp.i
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/C++项目/Data_Structures/seqlist1.cpp > CMakeFiles/seqlist1.dir/seqlist1.cpp.i
 
 CMakeFiles/seqlist1.dir/seqlist1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/seqlist1.dir/seqlist1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/seqlist1.cpp -o CMakeFiles/seqlist1.dir/seqlist1.cpp.s
+	/usr/bin/aarch64-redhat-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/C++项目/Data_Structures/seqlist1.cpp -o CMakeFiles/seqlist1.dir/seqlist1.cpp.s
 
 # Object files for target seqlist1
 seqlist1_OBJECTS = \

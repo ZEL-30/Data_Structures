@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/linklist1.dir/linklist1.cpp.o -o linklist1 
+/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/linklist1.dir/linklist1.cpp.o -o linklist1 
