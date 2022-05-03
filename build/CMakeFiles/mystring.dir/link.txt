@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/mystring.dir/mystring.cpp.o CMakeFiles/mystring.dir/src/MyString.cpp.o -o mystring 
