@@ -1,0 +1,1 @@
+/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/linkstack1.dir/linkstack1.cpp.o -o linkstack1 

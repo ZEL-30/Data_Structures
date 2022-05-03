@@ -25,3 +25,5 @@ add_executable(mystring mystring.cpp src/MyString.cpp)
 add_executable(seqstack1 seqstack1.cpp)
 
 add_executable(seqstack2 seqstack2.cpp)
+
+add_executable(linkstack1 linkstack1.cpp)

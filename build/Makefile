@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named linkstack1
+
+# Build rule for target.
+linkstack1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkstack1
+.PHONY : linkstack1
+
+# fast build rule for target.
+linkstack1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
+.PHONY : linkstack1/fast
+
+#=============================================================================
 # Target rules for targets named seqstack2
 
 # Build rule for target.
@@ -293,6 +306,30 @@ linklist2.s: linklist2.cpp.s
 linklist2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linklist2.dir/build.make CMakeFiles/linklist2.dir/linklist2.cpp.s
 .PHONY : linklist2.cpp.s
+
+linkstack1.o: linkstack1.cpp.o
+.PHONY : linkstack1.o
+
+# target to build an object file
+linkstack1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/linkstack1.cpp.o
+.PHONY : linkstack1.cpp.o
+
+linkstack1.i: linkstack1.cpp.i
+.PHONY : linkstack1.i
+
+# target to preprocess a source file
+linkstack1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/linkstack1.cpp.i
+.PHONY : linkstack1.cpp.i
+
+linkstack1.s: linkstack1.cpp.s
+.PHONY : linkstack1.s
+
+# target to generate assembly for a file
+linkstack1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/linkstack1.cpp.s
+.PHONY : linkstack1.cpp.s
 
 memcpy.o: memcpy.cpp.o
 .PHONY : memcpy.o
@@ -520,6 +557,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... linklist1"
 	@echo "... linklist2"
+	@echo "... linkstack1"
 	@echo "... memcpy"
 	@echo "... mystring"
 	@echo "... seqlist1"
@@ -534,6 +572,9 @@ help:
 	@echo "... linklist2.o"
 	@echo "... linklist2.i"
 	@echo "... linklist2.s"
+	@echo "... linkstack1.o"
+	@echo "... linkstack1.i"
+	@echo "... linkstack1.s"
 	@echo "... memcpy.o"
 	@echo "... memcpy.i"
 	@echo "... memcpy.s"

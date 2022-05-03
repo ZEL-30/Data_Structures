@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /root/C++项目/Data_Structures/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/linkstack1.dir/all
 all: CMakeFiles/seqstack2.dir/all
 all: CMakeFiles/mystring.dir/all
 all: CMakeFiles/memcpy.dir/all
@@ -80,6 +81,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/linkstack1.dir/clean
 clean: CMakeFiles/seqstack2.dir/clean
 clean: CMakeFiles/mystring.dir/clean
 clean: CMakeFiles/memcpy.dir/clean
@@ -93,13 +95,39 @@ clean: CMakeFiles/seqlist1.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/linkstack1.dir
+
+# All Build rule for target.
+CMakeFiles/linkstack1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=5,6 "Built target linkstack1"
+.PHONY : CMakeFiles/linkstack1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linkstack1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/linkstack1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
+.PHONY : CMakeFiles/linkstack1.dir/rule
+
+# Convenience name for target.
+linkstack1: CMakeFiles/linkstack1.dir/rule
+.PHONY : linkstack1
+
+# clean rule for target.
+CMakeFiles/linkstack1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/clean
+.PHONY : CMakeFiles/linkstack1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/seqstack2.dir
 
 # All Build rule for target.
 CMakeFiles/seqstack2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=18,19 "Built target seqstack2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=20,21 "Built target seqstack2"
 .PHONY : CMakeFiles/seqstack2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -125,7 +153,7 @@ CMakeFiles/seqstack2.dir/clean:
 CMakeFiles/mystring.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=7,8,9 "Built target mystring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=9,10,11 "Built target mystring"
 .PHONY : CMakeFiles/mystring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +179,7 @@ CMakeFiles/mystring.dir/clean:
 CMakeFiles/memcpy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=5,6 "Built target memcpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=7,8 "Built target memcpy"
 .PHONY : CMakeFiles/memcpy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,7 +205,7 @@ CMakeFiles/memcpy.dir/clean:
 CMakeFiles/sizeof.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=20,21 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=22,23 "Built target sizeof"
 .PHONY : CMakeFiles/sizeof.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +257,7 @@ CMakeFiles/linklist2.dir/clean:
 CMakeFiles/seqlist3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist3.dir/build.make CMakeFiles/seqlist3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist3.dir/build.make CMakeFiles/seqlist3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=14,15 "Built target seqlist3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=16,17 "Built target seqlist3"
 .PHONY : CMakeFiles/seqlist3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +283,7 @@ CMakeFiles/seqlist3.dir/clean:
 CMakeFiles/seqlist2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist2.dir/build.make CMakeFiles/seqlist2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist2.dir/build.make CMakeFiles/seqlist2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=12,13 "Built target seqlist2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=14,15 "Built target seqlist2"
 .PHONY : CMakeFiles/seqlist2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +309,7 @@ CMakeFiles/seqlist2.dir/clean:
 CMakeFiles/seqstack1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=16,17 "Built target seqstack1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=18,19 "Built target seqstack1"
 .PHONY : CMakeFiles/seqstack1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -333,7 +361,7 @@ CMakeFiles/linklist1.dir/clean:
 CMakeFiles/seqlist1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=10,11 "Built target seqlist1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=12,13 "Built target seqlist1"
 .PHONY : CMakeFiles/seqlist1.dir/all
 
 # Build rule for subdir invocation for target.

@@ -43,6 +43,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/linkstack1.dir/DependInfo.cmake"
   "CMakeFiles/seqstack2.dir/DependInfo.cmake"
   "CMakeFiles/mystring.dir/DependInfo.cmake"
   "CMakeFiles/memcpy.dir/DependInfo.cmake"
