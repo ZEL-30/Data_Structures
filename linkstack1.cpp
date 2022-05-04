@@ -55,7 +55,7 @@ int main(){
     ee = 12; Push(ls,&ee);
     ee = 13; Push(ls,&ee);
     PrintStack(ls);
-    //cout << "栈的长度为：" << Length(&ss) << endl;
+    cout << "栈的长度为：" << Length(ls) << endl;
     Pop(ls,&ee);
     cout << ee << " 出栈" << endl;
     Pop(ls,&ee);
@@ -63,8 +63,10 @@ int main(){
     Pop(ls,&ee);
     cout << ee << " 出栈" << endl;
     PrintStack(ls);
-
-
+    cout << "栈的长度为：" << Length(ls) << endl;
+    GetTop(ls,&ee);
+    cout << "栈顶元素为：" << ee << endl;
+    DestroyStack(ls);
 
     return 0;
 }
@@ -125,4 +127,35 @@ void PrintStack(LinkStack SS){
         cur = cur->next;
     }
     cout << endl;
+}
+
+// 求链栈的长度，返回值：栈SS中元素的个数。
+int  Length(LinkStack SS){
+    if(SS == NULL) return 0;
+    SNode* cur = SS->next;
+    int len = 0;
+    while(cur != NULL){
+        len++; cur = cur->next;
+    }
+    return len;
+}
+
+// 获取栈顶元素，返回值：0-失败；1-成功。
+// 只查看栈顶元素的值，元素不出栈。
+int GetTop(LinkStack SS, ElemType *ee){
+    if(SS == NULL || ee == NULL) return 0;
+    memcpy(ee,SS->next->data,sizeof(ElemType));
+    return 1;
+}
+
+// 销毁链栈SS。
+void DestroyStack(LinkStack SS){
+    if(SS == NULL) return;
+    SNode* tmp;
+    while(SS != NULL){
+        tmp = SS->next;
+        free(SS);
+        SS = tmp;
+    }
+    return;
 }
