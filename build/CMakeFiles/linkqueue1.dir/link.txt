@@ -1,0 +1,1 @@
+/usr/bin/aarch64-redhat-linux-g++  -Wall -g -rdynamic CMakeFiles/linkqueue1.dir/linkqueue1.cpp.o -o linkqueue1 
