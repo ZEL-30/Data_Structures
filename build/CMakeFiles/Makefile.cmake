@@ -43,10 +43,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/linkqueue1.dir/DependInfo.cmake"
   "CMakeFiles/seqlist1.dir/DependInfo.cmake"
   "CMakeFiles/seqqueue1.dir/DependInfo.cmake"
   "CMakeFiles/seqlist2.dir/DependInfo.cmake"
   "CMakeFiles/seqlist3.dir/DependInfo.cmake"
+  "CMakeFiles/seqstack3.dir/DependInfo.cmake"
   "CMakeFiles/linklist2.dir/DependInfo.cmake"
   "CMakeFiles/sizeof.dir/DependInfo.cmake"
   "CMakeFiles/memcpy.dir/DependInfo.cmake"
@@ -55,5 +57,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/seqstack1.dir/DependInfo.cmake"
   "CMakeFiles/seqstack2.dir/DependInfo.cmake"
   "CMakeFiles/linkstack1.dir/DependInfo.cmake"
-  "CMakeFiles/linkqueue1.dir/DependInfo.cmake"
   )

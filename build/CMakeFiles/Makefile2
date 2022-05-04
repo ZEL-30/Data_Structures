@@ -63,10 +63,12 @@ CMAKE_BINARY_DIR = /root/C++项目/Data_Structures/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/linkqueue1.dir/all
 all: CMakeFiles/seqlist1.dir/all
 all: CMakeFiles/seqqueue1.dir/all
 all: CMakeFiles/seqlist2.dir/all
 all: CMakeFiles/seqlist3.dir/all
+all: CMakeFiles/seqstack3.dir/all
 all: CMakeFiles/linklist2.dir/all
 all: CMakeFiles/sizeof.dir/all
 all: CMakeFiles/memcpy.dir/all
@@ -75,7 +77,6 @@ all: CMakeFiles/linklist1.dir/all
 all: CMakeFiles/seqstack1.dir/all
 all: CMakeFiles/seqstack2.dir/all
 all: CMakeFiles/linkstack1.dir/all
-all: CMakeFiles/linkqueue1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -83,10 +84,12 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/linkqueue1.dir/clean
 clean: CMakeFiles/seqlist1.dir/clean
 clean: CMakeFiles/seqqueue1.dir/clean
 clean: CMakeFiles/seqlist2.dir/clean
 clean: CMakeFiles/seqlist3.dir/clean
+clean: CMakeFiles/seqstack3.dir/clean
 clean: CMakeFiles/linklist2.dir/clean
 clean: CMakeFiles/sizeof.dir/clean
 clean: CMakeFiles/memcpy.dir/clean
@@ -95,8 +98,33 @@ clean: CMakeFiles/linklist1.dir/clean
 clean: CMakeFiles/seqstack1.dir/clean
 clean: CMakeFiles/seqstack2.dir/clean
 clean: CMakeFiles/linkstack1.dir/clean
-clean: CMakeFiles/linkqueue1.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linkqueue1.dir
+
+# All Build rule for target.
+CMakeFiles/linkqueue1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=5,6 "Built target linkqueue1"
+.PHONY : CMakeFiles/linkqueue1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linkqueue1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/linkqueue1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
+.PHONY : CMakeFiles/linkqueue1.dir/rule
+
+# Convenience name for target.
+linkqueue1: CMakeFiles/linkqueue1.dir/rule
+.PHONY : linkqueue1
+
+# clean rule for target.
+CMakeFiles/linkqueue1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/clean
+.PHONY : CMakeFiles/linkqueue1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/seqlist1.dir
@@ -203,6 +231,32 @@ CMakeFiles/seqlist3.dir/clean:
 .PHONY : CMakeFiles/seqlist3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/seqstack3.dir
+
+# All Build rule for target.
+CMakeFiles/seqstack3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=26,27 "Built target seqstack3"
+.PHONY : CMakeFiles/seqstack3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/seqstack3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/seqstack3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
+.PHONY : CMakeFiles/seqstack3.dir/rule
+
+# Convenience name for target.
+seqstack3: CMakeFiles/seqstack3.dir/rule
+.PHONY : seqstack3
+
+# clean rule for target.
+CMakeFiles/seqstack3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/clean
+.PHONY : CMakeFiles/seqstack3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linklist2.dir
 
 # All Build rule for target.
@@ -235,7 +289,7 @@ CMakeFiles/linklist2.dir/clean:
 CMakeFiles/sizeof.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=26,27 "Built target sizeof"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=28,29 "Built target sizeof"
 .PHONY : CMakeFiles/sizeof.dir/all
 
 # Build rule for subdir invocation for target.
@@ -409,32 +463,6 @@ linkstack1: CMakeFiles/linkstack1.dir/rule
 CMakeFiles/linkstack1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/clean
 .PHONY : CMakeFiles/linkstack1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/linkqueue1.dir
-
-# All Build rule for target.
-CMakeFiles/linkqueue1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/C++项目/Data_Structures/build/CMakeFiles --progress-num=5,6 "Built target linkqueue1"
-.PHONY : CMakeFiles/linkqueue1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/linkqueue1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/linkqueue1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/C++项目/Data_Structures/build/CMakeFiles 0
-.PHONY : CMakeFiles/linkqueue1.dir/rule
-
-# Convenience name for target.
-linkqueue1: CMakeFiles/linkqueue1.dir/rule
-.PHONY : linkqueue1
-
-# clean rule for target.
-CMakeFiles/linkqueue1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/clean
-.PHONY : CMakeFiles/linkqueue1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

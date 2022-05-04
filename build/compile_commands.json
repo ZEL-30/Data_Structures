@@ -1,6 +1,11 @@
 [
 {
   "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linkqueue1.dir/linkqueue1.cpp.o -c /root/C++项目/Data_Structures/linkqueue1.cpp",
+  "file": "/root/C++项目/Data_Structures/linkqueue1.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqlist1.dir/seqlist1.cpp.o -c /root/C++项目/Data_Structures/seqlist1.cpp",
   "file": "/root/C++项目/Data_Structures/seqlist1.cpp"
 },
@@ -18,6 +23,11 @@
   "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqlist3.dir/seqlist3.cpp.o -c /root/C++项目/Data_Structures/seqlist3.cpp",
   "file": "/root/C++项目/Data_Structures/seqlist3.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqstack3.dir/seqstack3.cpp.o -c /root/C++项目/Data_Structures/seqstack3.cpp",
+  "file": "/root/C++项目/Data_Structures/seqstack3.cpp"
 },
 {
   "directory": "/root/C++项目/Data_Structures/build",
@@ -63,10 +73,5 @@
   "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linkstack1.dir/linkstack1.cpp.o -c /root/C++项目/Data_Structures/linkstack1.cpp",
   "file": "/root/C++项目/Data_Structures/linkstack1.cpp"
-},
-{
-  "directory": "/root/C++项目/Data_Structures/build",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linkqueue1.dir/linkqueue1.cpp.o -c /root/C++项目/Data_Structures/linkqueue1.cpp",
-  "file": "/root/C++项目/Data_Structures/linkqueue1.cpp"
 }
 ]

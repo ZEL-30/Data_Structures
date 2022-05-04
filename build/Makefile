@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named linkqueue1
+
+# Build rule for target.
+linkqueue1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkqueue1
+.PHONY : linkqueue1
+
+# fast build rule for target.
+linkqueue1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/build
+.PHONY : linkqueue1/fast
+
+#=============================================================================
 # Target rules for targets named seqlist1
 
 # Build rule for target.
@@ -167,6 +180,19 @@ seqlist3: cmake_check_build_system
 seqlist3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist3.dir/build.make CMakeFiles/seqlist3.dir/build
 .PHONY : seqlist3/fast
+
+#=============================================================================
+# Target rules for targets named seqstack3
+
+# Build rule for target.
+seqstack3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack3
+.PHONY : seqstack3
+
+# fast build rule for target.
+seqstack3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/build
+.PHONY : seqstack3/fast
 
 #=============================================================================
 # Target rules for targets named linklist2
@@ -271,19 +297,6 @@ linkstack1: cmake_check_build_system
 linkstack1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
 .PHONY : linkstack1/fast
-
-#=============================================================================
-# Target rules for targets named linkqueue1
-
-# Build rule for target.
-linkqueue1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkqueue1
-.PHONY : linkqueue1
-
-# fast build rule for target.
-linkqueue1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkqueue1.dir/build.make CMakeFiles/linkqueue1.dir/build
-.PHONY : linkqueue1/fast
 
 linklist1.o: linklist1.cpp.o
 .PHONY : linklist1.o
@@ -573,6 +586,30 @@ seqstack2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/seqstack2.cpp.s
 .PHONY : seqstack2.cpp.s
 
+seqstack3.o: seqstack3.cpp.o
+.PHONY : seqstack3.o
+
+# target to build an object file
+seqstack3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/seqstack3.cpp.o
+.PHONY : seqstack3.cpp.o
+
+seqstack3.i: seqstack3.cpp.i
+.PHONY : seqstack3.i
+
+# target to preprocess a source file
+seqstack3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/seqstack3.cpp.i
+.PHONY : seqstack3.cpp.i
+
+seqstack3.s: seqstack3.cpp.s
+.PHONY : seqstack3.s
+
+# target to generate assembly for a file
+seqstack3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/seqstack3.cpp.s
+.PHONY : seqstack3.cpp.s
+
 sizeof.o: sizeof.cpp.o
 .PHONY : sizeof.o
 
@@ -641,6 +678,7 @@ help:
 	@echo "... seqqueue1"
 	@echo "... seqstack1"
 	@echo "... seqstack2"
+	@echo "... seqstack3"
 	@echo "... sizeof"
 	@echo "... linklist1.o"
 	@echo "... linklist1.i"
@@ -678,6 +716,9 @@ help:
 	@echo "... seqstack2.o"
 	@echo "... seqstack2.i"
 	@echo "... seqstack2.s"
+	@echo "... seqstack3.o"
+	@echo "... seqstack3.i"
+	@echo "... seqstack3.s"
 	@echo "... sizeof.o"
 	@echo "... sizeof.i"
 	@echo "... sizeof.s"
