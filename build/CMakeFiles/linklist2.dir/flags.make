@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/root/C++项目/Data_Structures/include
 
-CXX_FLAGS = -g -Wall -O2
+CXX_FLAGS =  -Wall -g
 

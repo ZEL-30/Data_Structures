@@ -1,1 +1,1 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/seqlist2.dir/seqlist2.cpp.o -o seqlist2 
+/usr/bin/aarch64-redhat-linux-g++  -Wall -g -rdynamic CMakeFiles/seqlist2.dir/seqlist2.cpp.o -o seqlist2 

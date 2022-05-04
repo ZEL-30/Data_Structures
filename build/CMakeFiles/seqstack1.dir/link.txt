@@ -1,1 +1,1 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/seqstack1.dir/seqstack1.cpp.o -o seqstack1 
+/usr/bin/aarch64-redhat-linux-g++  -Wall -g -rdynamic CMakeFiles/seqstack1.dir/seqstack1.cpp.o -o seqstack1 

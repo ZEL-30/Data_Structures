@@ -1,1 +1,1 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/sizeof.dir/sizeof.cpp.o -o sizeof 
+/usr/bin/aarch64-redhat-linux-g++  -Wall -g -rdynamic CMakeFiles/sizeof.dir/sizeof.cpp.o -o sizeof 

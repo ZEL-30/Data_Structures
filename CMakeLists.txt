@@ -4,7 +4,9 @@ project(Data_Structures)
 
 include_directories(include)
 
-add_compile_options(-Wall -O2)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+
+set(CMAKE_BUILD_TYPE Debug)
 
 add_executable(seqlist1 seqlist1.cpp)
 
@@ -27,3 +29,5 @@ add_executable(seqstack1 seqstack1.cpp)
 add_executable(seqstack2 seqstack2.cpp)
 
 add_executable(linkstack1 linkstack1.cpp)
+
+add_executable(seqqueue1 seqqueue1.cpp)

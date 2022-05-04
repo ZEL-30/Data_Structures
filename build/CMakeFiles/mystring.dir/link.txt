@@ -1,1 +1,1 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -rdynamic CMakeFiles/mystring.dir/mystring.cpp.o CMakeFiles/mystring.dir/src/MyString.cpp.o -o mystring 
+/usr/bin/aarch64-redhat-linux-g++  -Wall -g -rdynamic CMakeFiles/mystring.dir/mystring.cpp.o CMakeFiles/mystring.dir/src/MyString.cpp.o -o mystring 

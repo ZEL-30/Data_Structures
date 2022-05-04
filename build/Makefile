@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /root/C++项目/Data_Structures/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,82 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linkstack1
+# Target rules for targets named seqlist1
 
 # Build rule for target.
-linkstack1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkstack1
-.PHONY : linkstack1
+seqlist1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist1
+.PHONY : seqlist1
 
 # fast build rule for target.
-linkstack1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
-.PHONY : linkstack1/fast
+seqlist1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/build
+.PHONY : seqlist1/fast
 
 #=============================================================================
-# Target rules for targets named seqstack2
+# Target rules for targets named seqqueue1
 
 # Build rule for target.
-seqstack2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack2
-.PHONY : seqstack2
+seqqueue1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqqueue1
+.PHONY : seqqueue1
 
 # fast build rule for target.
-seqstack2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/build
-.PHONY : seqstack2/fast
-
-#=============================================================================
-# Target rules for targets named mystring
-
-# Build rule for target.
-mystring: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mystring
-.PHONY : mystring
-
-# fast build rule for target.
-mystring/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
-.PHONY : mystring/fast
-
-#=============================================================================
-# Target rules for targets named memcpy
-
-# Build rule for target.
-memcpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memcpy
-.PHONY : memcpy
-
-# fast build rule for target.
-memcpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/build
-.PHONY : memcpy/fast
-
-#=============================================================================
-# Target rules for targets named sizeof
-
-# Build rule for target.
-sizeof: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof
-.PHONY : sizeof
-
-# fast build rule for target.
-sizeof/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-.PHONY : sizeof/fast
-
-#=============================================================================
-# Target rules for targets named linklist2
-
-# Build rule for target.
-linklist2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linklist2
-.PHONY : linklist2
-
-# fast build rule for target.
-linklist2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linklist2.dir/build.make CMakeFiles/linklist2.dir/build
-.PHONY : linklist2/fast
+seqqueue1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqqueue1.dir/build.make CMakeFiles/seqqueue1.dir/build
+.PHONY : seqqueue1/fast
 
 #=============================================================================
 # Target rules for targets named seqlist3
@@ -208,30 +156,56 @@ seqlist3/fast:
 .PHONY : seqlist3/fast
 
 #=============================================================================
-# Target rules for targets named seqlist2
+# Target rules for targets named linklist2
 
 # Build rule for target.
-seqlist2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist2
-.PHONY : seqlist2
+linklist2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linklist2
+.PHONY : linklist2
 
 # fast build rule for target.
-seqlist2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist2.dir/build.make CMakeFiles/seqlist2.dir/build
-.PHONY : seqlist2/fast
+linklist2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linklist2.dir/build.make CMakeFiles/linklist2.dir/build
+.PHONY : linklist2/fast
 
 #=============================================================================
-# Target rules for targets named seqstack1
+# Target rules for targets named sizeof
 
 # Build rule for target.
-seqstack1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack1
-.PHONY : seqstack1
+sizeof: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof
+.PHONY : sizeof
 
 # fast build rule for target.
-seqstack1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/build
-.PHONY : seqstack1/fast
+sizeof/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
+.PHONY : sizeof/fast
+
+#=============================================================================
+# Target rules for targets named memcpy
+
+# Build rule for target.
+memcpy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memcpy
+.PHONY : memcpy
+
+# fast build rule for target.
+memcpy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/build
+.PHONY : memcpy/fast
+
+#=============================================================================
+# Target rules for targets named mystring
+
+# Build rule for target.
+mystring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mystring
+.PHONY : mystring
+
+# fast build rule for target.
+mystring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
+.PHONY : mystring/fast
 
 #=============================================================================
 # Target rules for targets named linklist1
@@ -247,17 +221,56 @@ linklist1/fast:
 .PHONY : linklist1/fast
 
 #=============================================================================
-# Target rules for targets named seqlist1
+# Target rules for targets named seqstack1
 
 # Build rule for target.
-seqlist1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist1
-.PHONY : seqlist1
+seqstack1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack1
+.PHONY : seqstack1
 
 # fast build rule for target.
-seqlist1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/build
-.PHONY : seqlist1/fast
+seqstack1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack1.dir/build.make CMakeFiles/seqstack1.dir/build
+.PHONY : seqstack1/fast
+
+#=============================================================================
+# Target rules for targets named seqstack2
+
+# Build rule for target.
+seqstack2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack2
+.PHONY : seqstack2
+
+# fast build rule for target.
+seqstack2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack2.dir/build.make CMakeFiles/seqstack2.dir/build
+.PHONY : seqstack2/fast
+
+#=============================================================================
+# Target rules for targets named linkstack1
+
+# Build rule for target.
+linkstack1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkstack1
+.PHONY : linkstack1
+
+# fast build rule for target.
+linkstack1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
+.PHONY : linkstack1/fast
+
+#=============================================================================
+# Target rules for targets named seqlist2
+
+# Build rule for target.
+seqlist2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist2
+.PHONY : seqlist2
+
+# fast build rule for target.
+seqlist2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist2.dir/build.make CMakeFiles/seqlist2.dir/build
+.PHONY : seqlist2/fast
 
 linklist1.o: linklist1.cpp.o
 .PHONY : linklist1.o
@@ -451,6 +464,30 @@ seqlist3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist3.dir/build.make CMakeFiles/seqlist3.dir/seqlist3.cpp.s
 .PHONY : seqlist3.cpp.s
 
+seqqueue1.o: seqqueue1.cpp.o
+.PHONY : seqqueue1.o
+
+# target to build an object file
+seqqueue1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqqueue1.dir/build.make CMakeFiles/seqqueue1.dir/seqqueue1.cpp.o
+.PHONY : seqqueue1.cpp.o
+
+seqqueue1.i: seqqueue1.cpp.i
+.PHONY : seqqueue1.i
+
+# target to preprocess a source file
+seqqueue1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqqueue1.dir/build.make CMakeFiles/seqqueue1.dir/seqqueue1.cpp.i
+.PHONY : seqqueue1.cpp.i
+
+seqqueue1.s: seqqueue1.cpp.s
+.PHONY : seqqueue1.s
+
+# target to generate assembly for a file
+seqqueue1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqqueue1.dir/build.make CMakeFiles/seqqueue1.dir/seqqueue1.cpp.s
+.PHONY : seqqueue1.cpp.s
+
 seqstack1.o: seqstack1.cpp.o
 .PHONY : seqstack1.o
 
@@ -563,6 +600,7 @@ help:
 	@echo "... seqlist1"
 	@echo "... seqlist2"
 	@echo "... seqlist3"
+	@echo "... seqqueue1"
 	@echo "... seqstack1"
 	@echo "... seqstack2"
 	@echo "... sizeof"
@@ -590,6 +628,9 @@ help:
 	@echo "... seqlist3.o"
 	@echo "... seqlist3.i"
 	@echo "... seqlist3.s"
+	@echo "... seqqueue1.o"
+	@echo "... seqqueue1.i"
+	@echo "... seqqueue1.s"
 	@echo "... seqstack1.o"
 	@echo "... seqstack1.i"
 	@echo "... seqstack1.s"
