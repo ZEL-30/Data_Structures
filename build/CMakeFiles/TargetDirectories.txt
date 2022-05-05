@@ -1,5 +1,6 @@
 /root/C++项目/Data_Structures/build/CMakeFiles/linkqueue1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqqueue1.dir
+/root/C++项目/Data_Structures/build/CMakeFiles/linkstack1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqlist1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/rebuild_cache.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/edit_cache.dir
@@ -9,9 +10,9 @@
 /root/C++项目/Data_Structures/build/CMakeFiles/linklist2.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/sizeof.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/mystring.dir
-/root/C++项目/Data_Structures/build/CMakeFiles/memcpy.dir
-/root/C++项目/Data_Structures/build/CMakeFiles/seqstack4.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/linklist1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqstack1.dir
 /root/C++项目/Data_Structures/build/CMakeFiles/seqstack2.dir
-/root/C++项目/Data_Structures/build/CMakeFiles/linkstack1.dir
+/root/C++项目/Data_Structures/build/CMakeFiles/memcpy.dir
+/root/C++项目/Data_Structures/build/CMakeFiles/seqstack4.dir
+/root/C++项目/Data_Structures/build/CMakeFiles/seqstack5.dir

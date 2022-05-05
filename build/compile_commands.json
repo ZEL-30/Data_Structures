@@ -11,6 +11,11 @@
 },
 {
   "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linkstack1.dir/linkstack1.cpp.o -c /root/C++项目/Data_Structures/linkstack1.cpp",
+  "file": "/root/C++项目/Data_Structures/linkstack1.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqlist1.dir/seqlist1.cpp.o -c /root/C++项目/Data_Structures/seqlist1.cpp",
   "file": "/root/C++项目/Data_Structures/seqlist1.cpp"
 },
@@ -51,16 +56,6 @@
 },
 {
   "directory": "/root/C++项目/Data_Structures/build",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/memcpy.dir/memcpy.cpp.o -c /root/C++项目/Data_Structures/memcpy.cpp",
-  "file": "/root/C++项目/Data_Structures/memcpy.cpp"
-},
-{
-  "directory": "/root/C++项目/Data_Structures/build",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqstack4.dir/seqstack4.cpp.o -c /root/C++项目/Data_Structures/seqstack4.cpp",
-  "file": "/root/C++项目/Data_Structures/seqstack4.cpp"
-},
-{
-  "directory": "/root/C++项目/Data_Structures/build",
   "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linklist1.dir/linklist1.cpp.o -c /root/C++项目/Data_Structures/linklist1.cpp",
   "file": "/root/C++项目/Data_Structures/linklist1.cpp"
 },
@@ -76,7 +71,17 @@
 },
 {
   "directory": "/root/C++项目/Data_Structures/build",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/linkstack1.dir/linkstack1.cpp.o -c /root/C++项目/Data_Structures/linkstack1.cpp",
-  "file": "/root/C++项目/Data_Structures/linkstack1.cpp"
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/memcpy.dir/memcpy.cpp.o -c /root/C++项目/Data_Structures/memcpy.cpp",
+  "file": "/root/C++项目/Data_Structures/memcpy.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqstack4.dir/seqstack4.cpp.o -c /root/C++项目/Data_Structures/seqstack4.cpp",
+  "file": "/root/C++项目/Data_Structures/seqstack4.cpp"
+},
+{
+  "directory": "/root/C++项目/Data_Structures/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/root/C++项目/Data_Structures/include  -Wall -g -o CMakeFiles/seqstack5.dir/seqstack5.cpp.o -c /root/C++项目/Data_Structures/seqstack5.cpp",
+  "file": "/root/C++项目/Data_Structures/seqstack5.cpp"
 }
 ]

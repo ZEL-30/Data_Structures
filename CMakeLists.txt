@@ -32,6 +32,8 @@ add_executable(seqstack3 seqstack3.cpp)
 
 add_executable(seqstack4 seqstack4.cpp)
 
+add_executable(seqstack5 seqstack5.cpp)
+
 add_executable(linkstack1 linkstack1.cpp)
 
 add_executable(seqqueue1 seqqueue1.cpp)

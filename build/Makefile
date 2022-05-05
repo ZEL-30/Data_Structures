@@ -143,6 +143,19 @@ seqqueue1/fast:
 .PHONY : seqqueue1/fast
 
 #=============================================================================
+# Target rules for targets named linkstack1
+
+# Build rule for target.
+linkstack1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkstack1
+.PHONY : linkstack1
+
+# fast build rule for target.
+linkstack1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
+.PHONY : linkstack1/fast
+
+#=============================================================================
 # Target rules for targets named seqlist1
 
 # Build rule for target.
@@ -234,32 +247,6 @@ mystring/fast:
 .PHONY : mystring/fast
 
 #=============================================================================
-# Target rules for targets named memcpy
-
-# Build rule for target.
-memcpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memcpy
-.PHONY : memcpy
-
-# fast build rule for target.
-memcpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/build
-.PHONY : memcpy/fast
-
-#=============================================================================
-# Target rules for targets named seqstack4
-
-# Build rule for target.
-seqstack4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack4
-.PHONY : seqstack4
-
-# fast build rule for target.
-seqstack4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/build
-.PHONY : seqstack4/fast
-
-#=============================================================================
 # Target rules for targets named linklist1
 
 # Build rule for target.
@@ -299,17 +286,43 @@ seqstack2/fast:
 .PHONY : seqstack2/fast
 
 #=============================================================================
-# Target rules for targets named linkstack1
+# Target rules for targets named memcpy
 
 # Build rule for target.
-linkstack1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkstack1
-.PHONY : linkstack1
+memcpy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memcpy
+.PHONY : memcpy
 
 # fast build rule for target.
-linkstack1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkstack1.dir/build.make CMakeFiles/linkstack1.dir/build
-.PHONY : linkstack1/fast
+memcpy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memcpy.dir/build.make CMakeFiles/memcpy.dir/build
+.PHONY : memcpy/fast
+
+#=============================================================================
+# Target rules for targets named seqstack4
+
+# Build rule for target.
+seqstack4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack4
+.PHONY : seqstack4
+
+# fast build rule for target.
+seqstack4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/build
+.PHONY : seqstack4/fast
+
+#=============================================================================
+# Target rules for targets named seqstack5
+
+# Build rule for target.
+seqstack5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack5
+.PHONY : seqstack5
+
+# fast build rule for target.
+seqstack5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack5.dir/build.make CMakeFiles/seqstack5.dir/build
+.PHONY : seqstack5/fast
 
 linklist1.o: linklist1.cpp.o
 .PHONY : linklist1.o
@@ -647,6 +660,30 @@ seqstack4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/seqstack4.cpp.s
 .PHONY : seqstack4.cpp.s
 
+seqstack5.o: seqstack5.cpp.o
+.PHONY : seqstack5.o
+
+# target to build an object file
+seqstack5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack5.dir/build.make CMakeFiles/seqstack5.dir/seqstack5.cpp.o
+.PHONY : seqstack5.cpp.o
+
+seqstack5.i: seqstack5.cpp.i
+.PHONY : seqstack5.i
+
+# target to preprocess a source file
+seqstack5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack5.dir/build.make CMakeFiles/seqstack5.dir/seqstack5.cpp.i
+.PHONY : seqstack5.cpp.i
+
+seqstack5.s: seqstack5.cpp.s
+.PHONY : seqstack5.s
+
+# target to generate assembly for a file
+seqstack5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack5.dir/build.make CMakeFiles/seqstack5.dir/seqstack5.cpp.s
+.PHONY : seqstack5.cpp.s
+
 sizeof.o: sizeof.cpp.o
 .PHONY : sizeof.o
 
@@ -717,6 +754,7 @@ help:
 	@echo "... seqstack2"
 	@echo "... seqstack3"
 	@echo "... seqstack4"
+	@echo "... seqstack5"
 	@echo "... sizeof"
 	@echo "... linklist1.o"
 	@echo "... linklist1.i"
@@ -760,6 +798,9 @@ help:
 	@echo "... seqstack4.o"
 	@echo "... seqstack4.i"
 	@echo "... seqstack4.s"
+	@echo "... seqstack5.o"
+	@echo "... seqstack5.i"
+	@echo "... seqstack5.s"
 	@echo "... sizeof.o"
 	@echo "... sizeof.i"
 	@echo "... sizeof.s"

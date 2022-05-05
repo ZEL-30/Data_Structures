@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "seqqueue1"
+			"path" : "linkqueue1"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 37,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "seqqueue1::@6890427a1f51a3e7e1df",
+	"id" : "linkqueue1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,8 +75,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "seqqueue1",
-	"nameOnDisk" : "seqqueue1",
+	"name" : "linkqueue1",
+	"nameOnDisk" : "linkqueue1",
 	"paths" : 
 	{
 		"build" : ".",
@@ -97,7 +97,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "seqqueue1.cpp",
+			"path" : "linkqueue1.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
