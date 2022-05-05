@@ -130,19 +130,6 @@ linkqueue1/fast:
 .PHONY : linkqueue1/fast
 
 #=============================================================================
-# Target rules for targets named seqlist1
-
-# Build rule for target.
-seqlist1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist1
-.PHONY : seqlist1
-
-# fast build rule for target.
-seqlist1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/build
-.PHONY : seqlist1/fast
-
-#=============================================================================
 # Target rules for targets named seqqueue1
 
 # Build rule for target.
@@ -154,6 +141,19 @@ seqqueue1: cmake_check_build_system
 seqqueue1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqqueue1.dir/build.make CMakeFiles/seqqueue1.dir/build
 .PHONY : seqqueue1/fast
+
+#=============================================================================
+# Target rules for targets named seqlist1
+
+# Build rule for target.
+seqlist1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqlist1
+.PHONY : seqlist1
+
+# fast build rule for target.
+seqlist1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqlist1.dir/build.make CMakeFiles/seqlist1.dir/build
+.PHONY : seqlist1/fast
 
 #=============================================================================
 # Target rules for targets named seqlist2
@@ -221,6 +221,19 @@ sizeof/fast:
 .PHONY : sizeof/fast
 
 #=============================================================================
+# Target rules for targets named mystring
+
+# Build rule for target.
+mystring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mystring
+.PHONY : mystring
+
+# fast build rule for target.
+mystring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
+.PHONY : mystring/fast
+
+#=============================================================================
 # Target rules for targets named memcpy
 
 # Build rule for target.
@@ -234,17 +247,17 @@ memcpy/fast:
 .PHONY : memcpy/fast
 
 #=============================================================================
-# Target rules for targets named mystring
+# Target rules for targets named seqstack4
 
 # Build rule for target.
-mystring: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mystring
-.PHONY : mystring
+seqstack4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seqstack4
+.PHONY : seqstack4
 
 # fast build rule for target.
-mystring/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
-.PHONY : mystring/fast
+seqstack4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/build
+.PHONY : seqstack4/fast
 
 #=============================================================================
 # Target rules for targets named linklist1
@@ -610,6 +623,30 @@ seqstack3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack3.dir/build.make CMakeFiles/seqstack3.dir/seqstack3.cpp.s
 .PHONY : seqstack3.cpp.s
 
+seqstack4.o: seqstack4.cpp.o
+.PHONY : seqstack4.o
+
+# target to build an object file
+seqstack4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/seqstack4.cpp.o
+.PHONY : seqstack4.cpp.o
+
+seqstack4.i: seqstack4.cpp.i
+.PHONY : seqstack4.i
+
+# target to preprocess a source file
+seqstack4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/seqstack4.cpp.i
+.PHONY : seqstack4.cpp.i
+
+seqstack4.s: seqstack4.cpp.s
+.PHONY : seqstack4.s
+
+# target to generate assembly for a file
+seqstack4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seqstack4.dir/build.make CMakeFiles/seqstack4.dir/seqstack4.cpp.s
+.PHONY : seqstack4.cpp.s
+
 sizeof.o: sizeof.cpp.o
 .PHONY : sizeof.o
 
@@ -679,6 +716,7 @@ help:
 	@echo "... seqstack1"
 	@echo "... seqstack2"
 	@echo "... seqstack3"
+	@echo "... seqstack4"
 	@echo "... sizeof"
 	@echo "... linklist1.o"
 	@echo "... linklist1.i"
@@ -719,6 +757,9 @@ help:
 	@echo "... seqstack3.o"
 	@echo "... seqstack3.i"
 	@echo "... seqstack3.s"
+	@echo "... seqstack4.o"
+	@echo "... seqstack4.i"
+	@echo "... seqstack4.s"
 	@echo "... sizeof.o"
 	@echo "... sizeof.i"
 	@echo "... sizeof.s"
